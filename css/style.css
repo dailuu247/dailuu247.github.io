@@ -1,0 +1,84 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+.signature {
+    width:1200px;
+    display:flex;
+    margin: 0 auto;
+}
+.signature .nav {
+    width: 200px;
+    background: rgb(124, 118, 118);
+}
+.signature .content {
+    width: 1000px;
+    background: rgb(248, 248, 248);
+}
+.signature .content .header {
+    height: 500px;
+    background: rgb(18, 200, 200);
+}
+/* .signature .content .section {
+    color: gray;
+} */
+.signature .content .section h3{
+    text-transform: uppercase;
+    text-align: center;
+    /* color: gray; */
+    font-size: 25px;
+    font-family: Segoe UI;
+    margin: 20px 0;
+}
+.signature .content .section .sectionDown {
+    display: flex;
+    background: rgb(238, 235, 235);
+    height: 350px;
+    padding: 40px;
+    justify-content: space-between;
+}
+.signature .content .section .sectionDown .traiAbout{
+    width: 35%;
+    background: rgb(255, 255, 255);
+}
+.signature .content .section .sectionDown .phaiAbout{
+    width: 60%;
+    background: rgb(255, 255, 255);
+}
+.signature .content .section .sectionDown .cotCapa{
+    width: 48%;
+    background: rgb(255, 255, 255);
+}
+
+.signature .content .section .sectionDown .hangExp {
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    width: 100%;
+}
+.signature .content .section .sectionDown .cotEdu {
+    width: 32%;
+    background: rgb(255, 255, 255);
+}
+.signature .content .section .sectionDown .traiContact{
+    width: 60%;
+    background: rgb(255, 255, 255);
+}
+.signature .content .section .sectionDown .phaiContact{
+    width: 35%;
+    background: rgb(255, 255, 255);
+}
+.signature .content .section .namdoc {
+    flex-wrap: wrap;
+}
+.signature .content .section .cuoiContact {
+    background: rgb(238, 235, 235);
+}
+.signature .content .section .cuoiContact .findUs {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+    /* color: gray; */
+    font-size: 25px;
+    font-family: Segoe UI;
+    margin: 40px;
+}
