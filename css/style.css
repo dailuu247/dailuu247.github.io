@@ -20,8 +20,8 @@
     background: rgb(18, 200, 200);
 }
 /* .signature .content .section {
-    color: gray;
-} */
+    background: rgb(238, 235, 235);
+}  */
 .signature .content .section h3{
     text-transform: uppercase;
     text-align: center;
@@ -33,7 +33,7 @@
 .signature .content .section .sectionDown {
     display: flex;
     background: rgb(238, 235, 235);
-    height: 350px;
+    height: 400px;
     padding: 40px;
     justify-content: space-between;
 }
@@ -59,26 +59,34 @@
     width: 32%;
     background: rgb(255, 255, 255);
 }
-.signature .content .section .sectionDown .traiContact{
-    width: 60%;
-    background: rgb(255, 255, 255);
-}
-.signature .content .section .sectionDown .phaiContact{
-    width: 35%;
-    background: rgb(255, 255, 255);
-}
+
 .signature .content .section .namdoc {
     flex-wrap: wrap;
 }
-.signature .content .section .cuoiContact {
-    background: rgb(238, 235, 235);
+
+
+.signature .content .section .sectionDown .trenContact {
+    display: flex;
+    /* background: rgb(255, 255, 255); */
+    /* margin-bottom: 20px; */
+    width: 100%;
+    justify-content: space-between; 
+    height: 230px;
 }
-.signature .content .section .cuoiContact .findUs {
-    background-color: rgb(255, 255, 255);
-    padding: 40px;
+.signature .content .section .sectionDown .trenContact .traiContact{
+    width: 60%;
+    background: rgb(255, 255, 255);
+}
+.signature .content .section .sectionDown .trenContact .phaiContact{
+    width: 35%;
+    background: rgb(255, 255, 255);
+}
+.signature .content .section .sectionDown .duoiContact {
+    background: rgb(255, 255, 255);
+    width: 100%;
     text-align: center;
-    /* color: gray; */
-    font-size: 25px;
     font-family: Segoe UI;
-    margin: 40px;
+    height: 145px;
+    font-size: 20px;
+    /* padding-top:20px; */
 }
