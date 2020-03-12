@@ -1,6 +1,6 @@
 $(document).ready(function(){
 // Get The File From The Input
-    var url = "https://dailuu247.github.io/story.xls";
+    var url = "https://github.com/dailuu247/dailuu247.github.io/blob/master/story.xls";
     var toDisplay = document.getElementById('total_story');
     var toModified = document.getElementById('modified');
 
